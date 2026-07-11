@@ -1,0 +1,36 @@
+{
+    "name": "ray",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-tile-scanner": "github:riknoll/arcade-tile-scanner#v0.0.1",
+        "arcade-ai": "github:b9oo/pxt-arcade-ai#1b3908d8ecbfb955b44e5b72ebca1678bc33ea90",
+        "simple-ai": "github:b9oo/extension#8758c16dccfad42f1893016ef677c935200992c8",
+        "Custom Systemmenu Options": "github:meeeeeeeep1/custom-systemmenu-options#master",
+        "ultimate-effects": "github:b9oo/dynamic-lights#v0.0.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Console Overlay": "github:meeeeeeeep1/Console-Overlay#v0.1.0",
+        "browser-events": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
